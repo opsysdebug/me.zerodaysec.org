@@ -16,21 +16,21 @@ const Community: React.FC = () => {
       role: "Cybersecurity Intelligence",
       specialization: "Threat Analysis & Intelligence Gathering",
       experience: "8+ years",
-      imageUrl: "https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg"
+      imageUrl: "https://i.ibb.co.com/j9ksh0QT/imageedit-7-4116316551.png"
     },
     {
       id: 2,
       role: "Digital Forensics Expert",
       specialization: "Malware Analysis & Incident Response",
       experience: "6+ years",
-      imageUrl: "https://i.ibb.co.com/LDfYxgQQ/B0-B4-E70-A-8-C70-48-A4-9-A86-87-C2-EE7-EA17-C.jpg"
+      imageUrl: "https://images.pexels.com/photos/5380659/pexels-photo-5380659.jpeg"
     },
     {
       id: 3,
       role: "Penetration Tester",
       specialization: "Web & Mobile Application Security",
       experience: "7+ years",
-      imageUrl: "https://images.pexels.com/photos/5380674/pexels-photo-5380674.jpeg"
+      imageUrl: "https://i.ibb.co.com/Q30pH0fw/BC697-F8-F-2791-495-A-A322-EB1-B8-CFC8-FE5.jpg"
     },
     {
       id: 4,
