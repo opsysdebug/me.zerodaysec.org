@@ -23,7 +23,7 @@ const Community: React.FC = () => {
       role: "Digital Forensics Expert",
       specialization: "Malware Analysis & Incident Response",
       experience: "6+ years",
-      imageUrl: "https://i.ibb.co.com/yry3DFW/Create-an-image-for-my-Instagram-profile-pwnforensic-The-theme-should-reflect-my-expertise-in-hackin.jpg"
+      imageUrl: "https://i.ibb.co.com/LDfYxgQQ/B0-B4-E70-A-8-C70-48-A4-9-A86-87-C2-EE7-EA17-C.jpg"
     },
     {
       id: 3,
