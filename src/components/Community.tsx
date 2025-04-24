@@ -16,14 +16,14 @@ const Community: React.FC = () => {
       role: "Cybersecurity Intelligence",
       specialization: "Threat Analysis & Intelligence Gathering",
       experience: "8+ years",
-      imageUrl: "https://i.ibb.co.com/j9ksh0QT/imageedit-7-4116316551.png"
+      imageUrl: "https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg"
     },
     {
       id: 2,
       role: "Digital Forensics Expert",
       specialization: "Malware Analysis & Incident Response",
       experience: "6+ years",
-      imageUrl: "https://images.pexels.com/photos/5380659/pexels-photo-5380659.jpeg"
+      imageUrl: "https://i.ibb.co.com/LDfYxgQQ/B0-B4-E70-A-8-C70-48-A4-9-A86-87-C2-EE7-EA17-C.jpg"
     },
     {
       id: 3,
@@ -88,7 +88,7 @@ const Community: React.FC = () => {
               <div className="aspect-square rounded-lg overflow-hidden shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-300">
                 <div className="relative w-full h-full">
                   <img 
-                    src="https://i.ibb.co.com/j9ksh0QT/imageedit-7-4116316551.png" 
+                    src="https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg" 
                     alt="Community representation" 
                     className="w-full h-full object-cover"
                   />
