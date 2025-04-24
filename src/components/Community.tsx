@@ -88,7 +88,7 @@ const Community: React.FC = () => {
               <div className="aspect-square rounded-lg overflow-hidden shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-300">
                 <div className="relative w-full h-full">
                   <img 
-                    src="https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg" 
+                    src="https://i.ibb.co.com/SX92DkQn/imageedit-7-4116316551-1.png" 
                     alt="Community representation" 
                     className="w-full h-full object-cover"
                   />
