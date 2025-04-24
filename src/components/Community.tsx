@@ -16,28 +16,28 @@ const Community: React.FC = () => {
       role: "Cybersecurity Intelligence",
       specialization: "Threat Analysis & Intelligence Gathering",
       experience: "8+ years",
-      imageUrl: "https://images.pexels.com/photos/5474028/pexels-photo-5474028.jpeg"
+      imageUrl: "https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg"
     },
     {
       id: 2,
       role: "Digital Forensics Expert",
       specialization: "Malware Analysis & Incident Response",
       experience: "6+ years",
-      imageUrl: "https://images.pexels.com/photos/5474031/pexels-photo-5474031.jpeg"
+      imageUrl: "https://images.pexels.com/photos/5380659/pexels-photo-5380659.jpeg"
     },
     {
       id: 3,
       role: "Penetration Tester",
       specialization: "Web & Mobile Application Security",
       experience: "7+ years",
-      imageUrl: "https://images.pexels.com/photos/5474029/pexels-photo-5474029.jpeg"
+      imageUrl: "https://images.pexels.com/photos/5380674/pexels-photo-5380674.jpeg"
     },
     {
       id: 4,
       role: "Security Researcher",
       specialization: "Zero-day Vulnerability Research",
       experience: "5+ years",
-      imageUrl: "https://images.pexels.com/photos/5474030/pexels-photo-5474030.jpeg"
+      imageUrl: "https://images.pexels.com/photos/5380601/pexels-photo-5380601.jpeg"
     }
   ];
 
@@ -86,11 +86,21 @@ const Community: React.FC = () => {
             </div>
             <div className="relative">
               <div className="aspect-square rounded-lg overflow-hidden shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-300">
-                <img 
-                  src="https://images.pexels.com/photos/5474028/pexels-photo-5474028.jpeg" 
-                  alt="Community representation" 
-                  className="w-full h-full object-cover"
-                />
+                <div className="relative w-full h-full">
+                  <img 
+                    src="https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg" 
+                    alt="Community representation" 
+                    className="w-full h-full object-cover"
+                  />
+                  <div 
+                    className="absolute top-[20%] left-[35%] w-[30%] h-[20%]"
+                    style={{
+                      background: 'rgba(0,0,0,0.7)',
+                      filter: 'blur(8px) contrast(0.5)',
+                      mixBlendMode: 'multiply'
+                    }}
+                  ></div>
+                </div>
               </div>
             </div>
           </div>
@@ -104,11 +114,21 @@ const Community: React.FC = () => {
             >
               <div className="relative">
                 <div className="aspect-square overflow-hidden">
-                  <img 
-                    src={member.imageUrl} 
-                    alt={member.role}
-                    className="w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-300"
-                  />
+                  <div className="relative w-full h-full">
+                    <img 
+                      src={member.imageUrl} 
+                      alt={member.role}
+                      className="w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-300"
+                    />
+                    <div 
+                      className="absolute top-[20%] left-[35%] w-[30%] h-[20%]"
+                      style={{
+                        background: 'rgba(0,0,0,0.7)',
+                        filter: 'blur(8px) contrast(0.5)',
+                        mixBlendMode: 'multiply'
+                      }}
+                    ></div>
+                  </div>
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 right-0 p-4 text-white">

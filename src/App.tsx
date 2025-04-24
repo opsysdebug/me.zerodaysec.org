@@ -7,7 +7,6 @@ import Experience from './components/Experience';
 import Certifications from './components/Certifications';
 import GlobalReputation from './components/GlobalReputation';
 import Community from './components/Community';
-import WriteupBlog from './components/WriteupBlog';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import BackgroundEffect from './components/BackgroundEffect';
@@ -30,7 +29,6 @@ function App() {
           <Certifications />
           <GlobalReputation />
           <Community />
-          <WriteupBlog />
           <Contact />
         </main>
         <Footer />
