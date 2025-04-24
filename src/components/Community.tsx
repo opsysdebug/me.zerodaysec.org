@@ -37,7 +37,7 @@ const Community: React.FC = () => {
       role: "Security Researcher",
       specialization: "Zero-day Vulnerability Research",
       experience: "5+ years",
-      imageUrl: "https://images.pexels.com/photos/5380601/pexels-photo-5380601.jpeg"
+      imageUrl: "https://i.ibb.co.com/fdppqq1H/47277287.jpg"
     }
   ];
 
