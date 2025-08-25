@@ -42,6 +42,14 @@ const Experience: React.FC = () => {
     {
       id: 4,
       icon: <Award className="h-6 w-6 text-green-500" />,
+      title: "Cyber Security Research - Malaysia Airlines",
+      organization: "Malaysia Airlines",
+      year: "2020",
+      description: "Contracted to identify and address security vulnerabilities in Malaysia Airlines web applications. Successfully discovered and reported security flaws, recorded in the security hunter database under reference number BBP2020070100. Contracted by Izham Ismail.",
+    },
+    {
+      id: 5,
+      icon: <Award className="h-6 w-6 text-green-500" />,
       title: "Custom Security Tool Development",
       organization: "Security Universe",
       year: "2021",
