@@ -55,7 +55,7 @@ const Contact: React.FC = () => {
           </a>
 
           <a 
-            href="https://github.com/odaysec" 
+            href="https://github.com/opsysdebug" 
             target="_blank" 
             rel="noopener noreferrer"
             className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md text-center transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1 hover:border-purple-500 border border-transparent"
